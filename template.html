@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <head>
+    <title>Intro to Arduino (for absolute beginners) - klab.ca</title>
+    <link rel="stylesheet" type="text/css" href="css/github2.css?v=0.1">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="nav-inner">
+          <div id="toc"><i class="icon-chevron-down"></i> Table of Contents <i class="icon-chevron-down"></i></div>
+          <%- nav %>
+        </div>
+      </nav>
+    </header>
+    
+    <section>
+      <%- body %>
+    </section>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-246174-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+    <div id="page_feedback">
+      <span><strong>Help improve the quality of this workshop!</strong></span>
+      <span>Did this page explain everything well?
+        <a href="#" onClick="trackQuality('yes');return false;" class="button">Yes</a>
+        <a href="#" onClick="trackQuality('sortof');return false;" class="button">Sort of</a>
+        <a href="#" onClick="trackQuality('no');return false;" class="button">No</a></span>
+    </div>
+
+    <footer>
+      <nav>
+        <div id="prev"><%- previous %></div>
+        <div id="next"><%- forward %></div>
+      </nav>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/scripts.js?v=0.5" type="text/javascript"></script>
+    <script type="text/javascript" src="//use.typekit.net/iof4eob.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  </body>
+</html>

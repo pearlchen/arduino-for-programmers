@@ -1,0 +1,262 @@
+[
+    { 
+        "file":"index",
+        "title":"Welcome" 
+    },
+    { 
+        "title":"About Me", 
+        "folder": "about_me"
+    },
+    { 
+        "file":"about_me",           
+        "title":"About Me" 
+    },
+    { 
+        "file":"teaching_style",           
+        "title":"About my teaching style" 
+    },
+    { 
+        "title":"About this workshop",
+        "folder":"about_workshop"
+    },
+    { 
+        "file":"expectations_of_you",           
+        "title":"Expections of you" 
+    },
+    { 
+        "file":"workshop_goals",           
+        "title":"Workshop goals" 
+    },
+    { 
+        "title":"Arduino background",
+        "folder":"arduino_background"
+    },
+    { 
+        "file":"what_is_arduino",             
+        "title":"What is Arduino? (Part 1)" 
+    },
+    { 
+        "file":"what_is_arduino_cont",             
+        "title":"What is Arduino? (Part 2)" 
+    },
+    { 
+        "file":"arduino_types",               
+        "title":"Types of Arduinos" 
+    },
+    { 
+        "file":"which_arduino",               
+        "title":"Which Arduino?" 
+    },
+    { 
+        "file":"why_use_arduino_sense",             
+        "title":"Why use Arduino? (Part 1)" 
+    },
+    { 
+        "file":"why_use_arduino_act",             
+        "title":"Why use Arduino? (Part 2)" 
+    },
+    { 
+        "file":"what_can_you_make",           
+        "title":"What can you make?" 
+    },
+    { 
+        "file":"what_do_you_want_to_make",           
+        "title":"What do you want to make?" 
+    },
+    { 
+        "title":"Getting started",
+        "folder":"getting_started"
+    },
+    { 
+        "file":"intro_to_protosnap",          
+        "title":"Intro to the ProtoSnap" 
+    },
+    { 
+        "file":"protosnap_components",          
+        "title":"What's on the ProtoSnap" 
+    },
+    { 
+        "file":"protosnap_pins",          
+        "title":"ProtoSnap pins" 
+    },
+    { 
+        "file":"installing_arduino",          
+        "title":"Installing Arduino" 
+    },
+    { 
+        "file":"protosnap_demo_code",          
+        "title":"ProtoSnap Demo Code" 
+    },
+    { 
+        "file":"arduino_file_extensions",           
+        "title":"Arduino files" 
+    },
+    { 
+        "file":"arduino_sketches",           
+        "title":"What are sketches" 
+    },
+    { 
+        "file":"example_sketches",          
+        "title":"Built-in example sketches" 
+    },
+    { 
+        "file":"sparkfun_tutorials",          
+        "title":"Sparkfun ProtoSnap demo sketches" 
+    },
+    { 
+        "title":"Let's get coding!",
+        "folder":"arduino_code"
+    },
+    { 
+        "file":"functions",            
+        "title":"Functions" 
+    },
+    { 
+        "file":"statements",            
+        "title":"Statements" 
+    },
+    { 
+        "file":"comments",            
+        "title":"Comments" 
+    },
+    { 
+        "file":"setup_and_loop",            
+        "title":"setup() and loop()" 
+    },
+    { 
+        "file":"variables",            
+        "title":"Variables and datatypes" 
+    },
+    { 
+        "file":"functions_with_return_type",            
+        "title":"Function return types" 
+    },
+    { 
+        "file":"controlling_electricity",            
+        "title":"Controlling Electricity" 
+    },
+    { 
+        "file":"functions_with_parameters",            
+        "title":"Function parameters" 
+    },
+    { 
+        "file":"digital_write",            
+        "title":"digitalWrite() - Part 1" 
+    },
+    { 
+        "file":"digital_write_cont",            
+        "title":"digitalWrite() - Part 2" 
+    },
+    { 
+        "file":"delay",            
+        "title":"Delay" 
+    },
+    { 
+        "file":"digital_write_protosnap_rgb",            
+        "title":"digitalWrite() - ProtoSnap RGB LEDs" 
+    },
+    { 
+        "file":"digital_read",            
+        "title":"digitalRead()" 
+    },
+    { 
+        "file":"digital_read_pin_mode",            
+        "title":"digitalRead() with pinMode()" 
+    },
+    { 
+        "file":"conditionals",            
+        "title":"Conditionals" 
+    },
+    { 
+        "file":"conditionals_example",            
+        "title":"Conditionals example" 
+    },
+    { 
+        "file":"digital_read_example",            
+        "title":"digitalRead() example" 
+    },
+    { 
+        "file":"analog_write",            
+        "title":"analogWrite()" 
+    },
+    { 
+        "file":"pwm",            
+        "title":"PWM" 
+    },
+    { 
+        "file":"analog_read",            
+        "title":"analogRead()" 
+    },
+    { 
+        "file":"analog_write_example",            
+        "title":"analogWrite() example" 
+    },
+    { 
+        "file":"serial_debugging",            
+        "title":"Serial Debugging" 
+    },
+    { 
+        "file":"serial_monitor",            
+        "title":"Serial Monitor" 
+    },
+    { 
+        "file":"serial_debugging_Example",            
+        "title":"Serial Debugging Example" 
+    },
+    { 
+        "file":"coding_challenge",            
+        "title":"Coding Challenge" 
+    },
+    { 
+        "title":"Breadboarding",
+        "folder":"breadboarding"
+    },
+    { 
+        "file":"electricity",
+        "title":"Electricity"
+    },
+    { 
+        "file":"circuit",
+        "title":"Circuits"
+    },
+    { 
+        "file":"leds",
+        "title":"LEDs"
+    },
+    { 
+        "file":"ohms_law",
+        "title":"Ohm's Law"
+    },
+    { 
+        "file":"reading_resistors",
+        "title":"Reading Resistors"
+    },
+    { 
+        "file":"pwm_example",            
+        "title":"PWM Example" 
+    },
+    { 
+        "file":"peizo_buzzer",            
+        "title":"Peizo Buzzer" 
+    },
+    { 
+        "file":"servo_motor",            
+        "title":"Servo Motor" 
+    },
+    { 
+        "file":"servo_motor_control",            
+        "title":"Servo Motor control" 
+    },
+    { 
+        "file":"servo_motor_code",            
+        "title":"Servo Motor code" 
+    },
+    { 
+        "title":"Where to go from here?",
+        "folder":"post_workshop"
+    },
+    { 
+        "file":"resources",                   
+        "title":"Resources"
+    }
+]
