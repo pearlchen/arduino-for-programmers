@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  var lightLevel = analogRead( lightSensorPin );
+  int lightLevel = analogRead( lightSensorPin );
   Serial.println( lightLevel );
 }
 ```

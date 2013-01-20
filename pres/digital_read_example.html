@@ -21,22 +21,22 @@
 <p><strong>Example:</strong> Turn an LED on when a <em>digital</em> button is pushed.
 
 </p>
-<pre><code>int ledPin = <span class="number">13</span>;
-int buttonPin = <span class="number">2</span>;
+<pre><code><span class="keyword">int</span> ledPin = <span class="number">13</span>;
+<span class="keyword">int</span> buttonPin = <span class="number">2</span>;
 
-<span class="reserved">void</span> setup() {
+<span class="keyword">void</span> setup() {
   pinMode( ledPin, OUTPUT );
   pinMode( buttonPin, INPUT_PULLUP );
 }
 
-<span class="reserved">void</span> <span class="keyword">loop</span>() {
+<span class="keyword">void</span> loop() {
 
-  <span class="reserved">var</span> buttonState = digitalRead( buttonPin );
+  <span class="keyword">int</span> buttonState = digitalRead( buttonPin );
 
   <span class="keyword">if</span> ( buttonState == LOW ) {
-    digitalWrite( ledPin, HIGH ); <span class="regexp">//</span>turn <span class="literal">on</span>
+    digitalWrite( ledPin, HIGH ); <span class="comment">//turn on</span>
   }<span class="keyword">else</span>{
-    digitalWrite( ledPin, LOW );  <span class="regexp">//</span>turn <span class="literal">off</span>
+    digitalWrite( ledPin, LOW );  <span class="comment">//turn off</span>
   }
 
 }</code></pre>

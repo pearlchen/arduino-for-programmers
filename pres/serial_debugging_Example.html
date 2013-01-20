@@ -21,16 +21,16 @@
 <p><strong>Example:</strong> Debug the light sensor reading
 
 </p>
-<pre><code>int lightSensorPin = A0<span class="comment">;</span>
+<pre><code><span class="keyword">int</span> lightSensorPin = A0;
 
-void setup() {
-  pinMode( lightSensorPin, INPUT )<span class="comment">; //optional pinMode</span>
-  Serial<span class="preprocessor">.begin</span>( <span class="number">9600</span> )<span class="comment">;</span>
+<span class="keyword">void</span> setup() {
+  pinMode( lightSensorPin, INPUT ); <span class="comment">//optional pinMode</span>
+  Serial<span class="variable">.begin</span>( <span class="number">9600</span> );
 }
 
-void loop() {
-  var lightLevel = analogRead( lightSensorPin )<span class="comment">;</span>
-  Serial<span class="preprocessor">.println</span>( lightLevel )<span class="comment">;</span>
+<span class="keyword">void</span> loop() {
+  <span class="keyword">int</span> lightLevel = analogRead( lightSensorPin );
+  Serial<span class="variable">.println</span>( lightLevel );
 }</code></pre>
 
     </section>

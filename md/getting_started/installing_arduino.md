@@ -4,7 +4,7 @@
 
 If you haven't already, go to the [Download](http://arduino.cc/en/Main/Software) section of the _arduino.cc_ website.
 
-Download the latest version (which, at the time of this writing, is **version 1.0.2**).
+Download the latest version (which, at the time of this writing, is **version 1.0.3**).
 
 ### Install
 

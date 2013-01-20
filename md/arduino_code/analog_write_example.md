@@ -13,7 +13,7 @@ void setup() {
 
 void loop() {
 
-  var lightLevel = analogRead( lightSensorPin );
+  int lightLevel = analogRead( lightSensorPin );
   
   if ( lightLevel <= 341 ) {
     analogWrite( ledPin, 255 ); //bright

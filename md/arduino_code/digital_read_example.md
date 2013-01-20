@@ -13,7 +13,7 @@ void setup() {
 
 void loop() {
 
-  var buttonState = digitalRead( buttonPin );
+  int buttonState = digitalRead( buttonPin );
   
   if ( buttonState == LOW ) {
     digitalWrite( ledPin, HIGH ); //turn on

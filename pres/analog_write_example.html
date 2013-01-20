@@ -31,7 +31,7 @@ int lightSensorPin = A0;
 
 <span class="reserved">void</span> <span class="keyword">loop</span>() {
 
-  <span class="reserved">var</span> lightLevel = analogRead( lightSensorPin );
+  int lightLevel = analogRead( lightSensorPin );
 
   <span class="keyword">if</span> ( lightLevel &lt;= <span class="number">341</span> ) {
     analogWrite( ledPin, <span class="number">255</span> ); <span class="regexp">//</span>bright
